@@ -1,0 +1,41 @@
+.header {
+	a {
+		text-decoration: none;
+		color: black;
+	}
+}
+
+div {
+	margin-bottom: 5px;
+
+	& label, & p {
+		margin-left: 5%;
+
+		@media only screen and (min-width: 920px) {
+			margin-left: 0;
+		}
+	}
+
+	@media only screen and (min-width: 920px) {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}
+
+.nom {
+	@media only screen and (min-width: 920px) {
+		margin-top: 5%;
+	}
+}
+
+.boutons {
+	margin-top: 10%;
+	margin-left: 5%;
+
+	@media only screen and (min-width: 920px) {
+		margin: auto;
+		margin-top: 10%;
+	}
+}

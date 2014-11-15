@@ -1,0 +1,38 @@
+.header {
+	a {
+		text-decoration: none;
+		color: black;
+	}
+}
+
+.titre {
+	text-align: center;
+}
+
+.image {
+	width: 200px;
+	height: 175px;
+	margin: auto;
+
+	img {
+		width: 100%;
+	}
+}
+
+.description {
+	width: 250px;
+	margin: auto;
+	margin-bottom: 15px;
+
+	.center {
+		font-weight: bold;
+	}
+}
+
+.vendeur {
+	height: 30px;
+}
+
+.vendeur, .modifier {
+	text-align: center;
+}
