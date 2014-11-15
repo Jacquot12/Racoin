@@ -1,0 +1,61 @@
+/* line 2, ../sass/ajouter.scss */
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 8, ../sass/ajouter.scss */
+div {
+  margin-bottom: 5px;
+}
+/* line 11, ../sass/ajouter.scss */
+div label, div p {
+  margin-left: 5%;
+}
+@media only screen and (min-width: 920px) {
+  /* line 11, ../sass/ajouter.scss */
+  div label, div p {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 920px) {
+  /* line 8, ../sass/ajouter.scss */
+  div {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  /* line 27, ../sass/ajouter.scss */
+  .titre {
+    margin-top: 5%;
+  }
+}
+
+/* line 34, ../sass/ajouter.scss */
+.description input {
+  width: 90%;
+  height: 100px;
+  margin-left: 5%;
+}
+
+/* line 41, ../sass/ajouter.scss */
+.contact {
+  text-align: center;
+}
+
+/* line 45, ../sass/ajouter.scss */
+.boutons {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+@media only screen and (min-width: 920px) {
+  /* line 45, ../sass/ajouter.scss */
+  .boutons {
+    margin: auto;
+    margin-top: 5%;
+  }
+}

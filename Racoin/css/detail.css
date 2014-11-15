@@ -1,0 +1,42 @@
+/* line 2, ../sass/detail.scss */
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 8, ../sass/detail.scss */
+.titre {
+  text-align: center;
+}
+
+/* line 12, ../sass/detail.scss */
+.image {
+  width: 200px;
+  height: 175px;
+  margin: auto;
+}
+/* line 17, ../sass/detail.scss */
+.image img {
+  width: 100%;
+}
+
+/* line 22, ../sass/detail.scss */
+.description {
+  width: 250px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+/* line 27, ../sass/detail.scss */
+.description .center {
+  font-weight: bold;
+}
+
+/* line 32, ../sass/detail.scss */
+.vendeur {
+  height: 30px;
+}
+
+/* line 36, ../sass/detail.scss */
+.vendeur, .modifier {
+  text-align: center;
+}

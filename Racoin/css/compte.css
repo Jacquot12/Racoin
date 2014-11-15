@@ -1,0 +1,49 @@
+/* line 2, ../sass/compte.scss */
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 8, ../sass/compte.scss */
+div {
+  margin-bottom: 5px;
+}
+/* line 11, ../sass/compte.scss */
+div label, div p {
+  margin-left: 5%;
+}
+@media only screen and (min-width: 920px) {
+  /* line 11, ../sass/compte.scss */
+  div label, div p {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 920px) {
+  /* line 8, ../sass/compte.scss */
+  div {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  /* line 27, ../sass/compte.scss */
+  .nom {
+    margin-top: 5%;
+  }
+}
+
+/* line 33, ../sass/compte.scss */
+.boutons {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+@media only screen and (min-width: 920px) {
+  /* line 33, ../sass/compte.scss */
+  .boutons {
+    margin: auto;
+    margin-top: 10%;
+  }
+}
